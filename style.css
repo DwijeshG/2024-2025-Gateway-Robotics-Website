@@ -1,0 +1,292 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  background-color: rgb(12, 41, 50);
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #F46036;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-family: michroma;
+}
+
+.navbar-links {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar a:hover {
+  display: block;
+  background-color: #43AA8B;
+  color: #114B5F;
+  border-radius: 10px;
+  transition-delay: 0.25s;
+}
+
+/* Logo Styles */
+.Logo {
+  width: 75px;
+  height: 75px;
+}
+
+/* Flex Container Styles */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 25px;
+  border: #43AA8B solid 3px;
+  border-radius: 10px;
+  font-family: oxanium;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.flex-container:hover {
+  opacity: 1;
+}
+
+/* Miscellaneous Styles */
+.bg_image {
+  background-color: black;
+}
+
+.Low_G_Black_Logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: audiowide;
+  text-align: center;
+  font-size: 45px;
+  color: #F46036;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: michroma;
+  text-align: center;
+  color: #F46036;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: audiowide;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 55px;
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+p {
+  color: #43AA8B;
+  margin: 20px;
+  font-family: oxanium;
+  font-size: 18px;
+}
+
+a {
+  font-size: 20px;
+  position: relative;
+}
+
+/* Picture Styles */
+.picture {
+  border-radius: 10px;
+  width: 25%;
+  height: 25%;
+  margin: 10px;
+  border: 3px solid whitesmoke;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Slideshow Styles */
+.mySlides {
+  display: none;
+}
+
+.slideshow-container {
+  width: 35%;
+  position: relative;
+  margin: auto;
+}
+
+.numbertext {
+  color: #114B5F;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.slideshow_links{
+  color: #43AA8B;
+  font-size: 18px;
+}
+
+.slideshow_links:hover{
+  color: #F46036;
+  font-size: 20px;
+}
+
+/* Styles for support.html */
+.support_form{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 25px;
+}
+
+.inputsubmit:hover{
+  background-color: #F46036;
+  transition-duration: 0.25s;
+}
+
+
+
+/*Used in about_our_teams.html */
+.captain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  border-radius: 10px;
+  font-family: oxanium;
+  font-size: 20px;
+  color: #43AA8B;
+}
+
+.icon-navbar{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.inputsubmit{
+  background-color: #43AA8B;
+  border-radius: 10px; 
+  width: 100px; height: 50px; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-bottom: 15px; 
+  border: 3px solid whitesmoke;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.inputsubmit:hover{
+  background-color: #114B5F;
+  color: whitesmoke;
+}
+
+.icons{
+  display: inline-block;
+  margin: 0 0 15px 0;
+  white-space: nowrap;
+  font-size: 50px;  
+  color: #43AA8B;
+}
+
+.icons:hover{
+  color: #114B5F;
+}
+
+.icon-navbar-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group_pic{
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px whitesmoke solid;
+}

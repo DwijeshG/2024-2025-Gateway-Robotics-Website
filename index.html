@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Hearth Enterprises">
+  <meta name="description" content="About Hearth Enterprises.">
+  <title>Gateway College Preparatory High School Robotics Website</title>
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/ededed2697.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="bg_image">
+    <div class="background">
+      <nav class="navbar">
+        <img src="logo.png" alt="Best Robotics Logo" class="Logo">
+        <div class="navbar-links">
+          <a href="index.html">Home</a>
+          <a href="our-product.html">Our Product</a>
+          <a href="about-our-teams.html">About Our Teams</a>
+          <a href="https://www.bestrobotics.org/site">Best Robotics</a>
+          <a href="sponsors.html">Sponsors</a>
+          <a href="support.html">Support</a>
+          <a href="work-cited.html">Work Cited</a>
+        </div>
+    </nav>
+    <h3 class="company_name">Hearth Enterprises</h3>
+    <br>
+  </div>
+  </header>
+
+  <h1>Hearth Enterprises</h1>
+  <br>
+
+  <div class="slideshow-container">
+  
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="robot_design_slideshow.png" alt="Picture of our product." style="width:100%">
+    <a href="our_product.html" class="slideshow_links" style="font-size: 18px;">Click to know about our Product.</a>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="best_robotics_slideshow.png" alt="Best robotics logo." style="width:100%">
+    <a href="https://www.bestrobotics.org/site" class="slideshow_links" style="font-size: 18px;">Click to know about Best Robotics.</a>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="texas_instruments_slideshow.png" alt="Picture of one of our sponsors logo." style="width:100%">
+    <a href="sponsors.html" class="slideshow_links" style="font-size: 18px;">Click to know about our Sponsors.</a>
+  </div>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+  
+  <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 3000);
+    }
+    </script>
+
+    <br>
+    <br>
+  <h2>Theme</h2>
+  <center>
+    <iframe width="600" height="450" style="border-radius: 10px;" title="2024 Robotics teaser."
+    src="2024_BEST Robotics_Teaser.mp4">
+    </iframe>
+  </center>
+  <br>
+  <br>
+  
+  <h2>About Best</h2>
+    <div class="flex-container">
+      <p>The BEST Robotics program focuses on helping students learn about robotics through hands-on experience and real-world problem-solving. Its mission is to inspire young minds to explore science, technology, engineering, and mathematics (STEM) fields. Each year, teams of students from schools across the country compete to build robots that address specific challenges, fostering teamwork, creativity, and technical skills. The program emphasizes not just building robots but also understanding the design process, engineering principles, and critical thinking. By participating in BEST, students gain valuable knowledge and skills that can lead to future careers in STEM-related fields. Overall, BEST Robotics is shaping the next generation of innovators by providing a platform for students to engage with cutting-edge technology and solve complex problems.</p>
+      <img src="best_robotics_logo.png" alt="Best Robotics logo" class="picture">
+    </div>
+    <div class="icon-navbar">
+      <i class="fa-solid fa-moon" style="font-size: 30px; color: #43AA8B;"></i>
+      <i class="fa-solid fa-satellite" style="font-size: 30px; color: #43AA8B;"></i>
+      <i class="fa-solid fa-user-astronaut" style="font-size: 30px; color: #43AA8B;"></i>
+      <i class="fa-solid fa-shuttle-space" style="font-size: 30px; color: #43AA8B;"></i>
+      <i class="fa-regular fa-star" style="font-size: 30px; color: #43AA8B;"></i>
+    </div>
+    <br>
+    <br>
+
+    <h2 class="indexSubHeading">About Gateway</h2>
+    <div class="flex-container">
+      <p>The Gateway website says, "Gateway College Preparatory School is an open-enrollment public charter school offering grades K - 12 on one 40 acre campus to students in Williamson County and north Travis County areas. Gateway Prep is known for its exceptional academic program. An abundance of College Board Advanced Placement (AP) and Pre-AP courses are offered. All courses are taught by certified teachers as defined by the No Child Left Behind Act. There is NO TUITION to attend Gateway and enrollment is open to all students until available seats have been filled. Smaller and more intimate by design, Gateway Prep offers a public school education that feels and functions like a private school. With a senior class of about 100 - 125 students each year -- Gateway is about 1/8 to 1/4 the size of other area public high schools. This smaller size is critical, because it offers a "human scale" to the learning environment, and allows students greater access to teaching staff, resources, and school activities. Conceived around the ideal "Citizen, Scholar, Athlete," Gateway Prep represents some of the best thinking in educational innovation.  We differ from the large traditional high school model in several ways.  Our smaller student body, incorporation of the "blended-learning", "flipped-classroom" instructional techniques, open-concept "green school" campus and full integration of new technology to enhance the learning experience set us apart."</p>
+      <img src="GCPS_Gator.png" alt="Gateway Logo" class="picture">
+    </div>
+    <div class="icon-navbar">
+      <i class="fa-solid fa-moon" style="font-size: 30px; color: #43AA8B;"></i>
+      <i class="fa-solid fa-satellite" style="font-size: 30px; color: #43AA8B;"></i>
+      <i class="fa-solid fa-user-astronaut" style="font-size: 30px; color: #43AA8B;"></i>
+      <i class="fa-solid fa-shuttle-space" style="font-size: 30px; color: #43AA8B;"></i>
+      <i class="fa-regular fa-star" style="font-size: 30px; color: #43AA8B;"></i>
+    </div>
+    <br>
+</body>
+</html>
