@@ -21,4 +21,4 @@ competition, showcasing our robot, team members, and mission.
 Built by the BEST Robotics Web Team — 2024
 
 ## License
-© 2024 BEST Robotics Web Team. All rights reserved.
+© 2024 Gateway Robotics Web Team. All rights reserved.
